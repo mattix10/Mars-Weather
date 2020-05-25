@@ -64,9 +64,9 @@ const CalendarCards = (props) => {
             <div className="card__top"> {convertDate(props.date)} </div>
               <table className="card__content">
                 <tbody>
-                  <tr className="card__content_data"><td>Temp.: </td><td>{Math.decimal(props.temp, ROUND)}</td><td className="units">°C</td></tr>
-                  <tr className="card__content_data"><td>Wiatr: </td><td>{Math.decimal(props.wind, ROUND)}</td><td className="units">m/s</td></tr>
-                  <tr className="card__content_data"><td>Ciśn.: </td><td>{Math.decimal(props.pressure, ROUND)}</td><td className="units">Pa</td></tr>
+                  <tr className="card__content__data"><td>Temp.: </td><td>{Math.decimal(props.temp, ROUND)}</td><td className="units">°C</td></tr>
+                  <tr className="card__content__data"><td>Wiatr: </td><td>{Math.decimal(props.wind, ROUND)}</td><td className="units">m/s</td></tr>
+                  <tr className="card__content__data"><td>Ciśn.: </td><td>{Math.decimal(props.pressure, ROUND)}</td><td className="units">Pa</td></tr>
                 </tbody>
               </table>
           </div>

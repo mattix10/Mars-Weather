@@ -114,7 +114,7 @@ div.button {
   background-color:rgb(107, 102, 102);
 } 
 
-.card__content_data {
+.card__content__data {
   padding-top:8%;
   font-size:26px;
   height:33%;
@@ -132,27 +132,27 @@ tr {
   border-collapse:collapse;
 }
 
-.card:nth-of-type(1){
+.card:nth-of-type(1) {
   animation-name:fade;
   animation-duration: 1s;
 }
-.card:nth-of-type(2){
+.card:nth-of-type(2) {
   animation-name:fade;
   animation-duration: 1.5s;
 }
-.card:nth-of-type(3){
+.card:nth-of-type(3) {
   animation-name:fade;
   animation-duration: 2s;
 }
-.card:nth-of-type(4){
+.card:nth-of-type(4) {
   animation-name:fade;
   animation-duration: 2.5s;
 }
-.card:nth-of-type(5){
+.card:nth-of-type(5) {
   animation-name:fade;
   animation-duration: 3s;
 }
-.card:nth-of-type(6){
+.card:nth-of-type(6) {
   animation-name:fade;
   animation-duration: 3.5s;
 }
