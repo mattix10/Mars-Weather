@@ -48,8 +48,7 @@ const convertDate = (date) => {
 			break;
     }
     fullDate = day + month;
-    
-		return fullDate;
+    return fullDate;
 }
 
 Math.decimal = function(n, k) 
