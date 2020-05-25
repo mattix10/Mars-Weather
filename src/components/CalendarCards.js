@@ -8,41 +8,41 @@ const convertDate = (date) => {
   let day = (date.substring(8,10));
   
   switch(date.substring(5,7)) {
-		case '01' :
-			month =  ' stycznia';
+		case '01':
+			month = 'stycznia';
 			break;
-		case '02' :
-			month =  ' lutego';
+		case '02':
+			month = 'lutego';
 			break;
-		case '03' :
-			month =  ' marca';
+		case '03':
+			month = 'marca';
 			break;
-		case '04' :
-			month =  ' kwietnia';
+		case '04':
+			month = 'kwietnia';
 			break;
-		case '05' :
-			month =  ' maja';
+		case '05':
+			month = 'maja';
 			break;
-		case '06' :
-			month =  ' czerwca';
+		case '06':
+			month = 'czerwca';
 			break;
-		case '07' :
-			month =  ' lipca';
+		case '07':
+			month = 'lipca';
 			break;
-		case '08' :
-			month =  ' sierpnia';
+		case '08':
+			month = 'sierpnia';
 			break;
-		case '09' :
-			month =  ' września';
+		case '09':
+			month = 'września';
 			break;
-		case '10' :
-			month =  ' października';
+		case '10':
+			month = 'października';
 			break;
-		case '11' :
-			month =  ' listopada';
+		case '11':
+			month = 'listopada';
 			break;
-		case '12' :
-			month =  ' grudnia';
+		case '12':
+			month = 'grudnia';
 			break;
 		default :
 			break;
@@ -51,8 +51,7 @@ const convertDate = (date) => {
     return fullDate;
 }
 
-Math.decimal = function(n, k) 
-{
+Math.decimal = function(n, k) {
   let factor = Math.pow(10, k+1);
   n = Math.round(Math.round(n*factor)/10);
   return n/(factor/10);
