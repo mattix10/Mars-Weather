@@ -15,6 +15,7 @@ Just click the button "Zobacz"
 ![Algorithm schema](./src/images/mars_first_side_min.jpg)
 
 and get to know about weather on the Red Planet
+
 ![Algorithm schema](./src/images/mars_weather.jpg)
 
 ## Technologies
