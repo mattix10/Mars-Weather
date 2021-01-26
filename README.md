@@ -1,5 +1,4 @@
-# Store 
-![Algorithm schema](./src/assets/screens_github/jackets.jpg)
+#Mars Weather
 ## Table of contents
 * [General info](#general-info)
 * [Overview](#overwiev)
